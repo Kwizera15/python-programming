@@ -2,9 +2,9 @@ def machine():
     amount_due=50
     accepted_coins=[25,10,5]
     while amount_due>0:
-        print("\nAmount_due is:",amount_due)
+        print("Amount_due is:",amount_due)
             
-        coin=int(input("\nEnter the coin(25,10,5): "))
+        coin=int(input("Enter the coin(25,10,5):"))
         if coin in accepted_coins:
            
             amount_due-=coin
